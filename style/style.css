@@ -15,7 +15,7 @@ body {
 .container-grid {
     width: 80%;
     margin: 0 auto;
-    background-color: salmon;
+    /* background-color: salmon; */
 }
 
 header{
@@ -30,7 +30,7 @@ header .header-flex {
 header h1 {
     color: white;
     font-weight: 300;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 header h1 #logoux{
@@ -41,8 +41,51 @@ font-style: italic;
 header nav a {
     color: white;
     text-decoration: none;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 
+}
+
+header nav{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .colunas-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .coluna1 {
+    width: 75%;
+    background-color: red;
+}
+
+main .coluna1 #text1{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+main .coluna1 #text2{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+main .coluna1 #text3{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+main .coluna2{
+    width: 20%;
+}
+
+main .coluna1 #lapis{
+    width: 100%;
 }
 
 /* Diagramação */
