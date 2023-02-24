@@ -59,7 +59,13 @@ main .colunas-flex {
 
 main .coluna1 {
     width: 75%;
-    background-color: red;
+    /* background-color: red; */
+}
+
+main .coluna1 #titulo-cores{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
 }
 
 main .coluna1 #text1{
